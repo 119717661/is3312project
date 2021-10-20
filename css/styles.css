@@ -2387,6 +2387,7 @@ progress {
     transition: none;
   }
 }
+
 .form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
   background-color: #dde0e3;
 }
@@ -4638,6 +4639,16 @@ textarea.form-control-lg {
 }
 .sidenav label {
 color: white;
+}
+.sidenav hr{
+    color: white;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 .main {
   margin-left: 200px; /* Same as the width of the sidenav */
